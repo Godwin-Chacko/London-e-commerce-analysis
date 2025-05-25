@@ -37,6 +37,7 @@ Insights and recommendations are provided on the following key areas:
 The data is organized across four tables: `Customers`, `Transactions`, `TransactionDetails`, `Products`,  and `Categories` .
 
 
+[ Back to Table of Contents](#table-of-contents)
 
 ---
 
