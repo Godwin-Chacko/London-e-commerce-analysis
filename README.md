@@ -7,6 +7,7 @@ Analyzing Elist order trends from 2019–2022.
 
 
 
+
 ## Table of Contents
 
 - [Project Background](#project-background)
@@ -37,7 +38,7 @@ Insights and recommendations are provided on the following key areas:
 The data is organized across four tables: `Customers`, `Transactions`, `TransactionDetails`, `Products`,  and `Categories` .
 
 
-
+![ERD Diagram](data/ERD.png)
 
 ---
 
