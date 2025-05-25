@@ -37,7 +37,7 @@ Insights and recommendations are provided on the following key areas:
 The data is organized across four tables: `Customers`, `Transactions`, `TransactionDetails`, `Products`,  and `Categories` .
 
 
-[ Back to Table of Contents](#table-of-contents)
+
 
 ---
 
@@ -53,6 +53,8 @@ The data is organized across four tables: `Customers`, `Transactions`, `Transact
 
 ---
 ## Part 1: Trends (Excel)
+
+[ Back to Table of Contents](#table-of-contents)
 
 Using Excel pivot tables and conditional formatting, I analyzed:
 
@@ -72,6 +74,8 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 ---
 
 ## Part 2: Targeted Insights (SQL)
+
+[ Back to Table of Contents](#table-of-contents)
 
 Using Google BigQuery and SQL, I extracted insights such as:
 
