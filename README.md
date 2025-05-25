@@ -22,13 +22,21 @@ Analyzing Elist order trends from 2019–2022.
 
 ## Project Background
 
-Elist is a sample e-commerce company that sells holiday decor, banking and pantry items and vintage items worldwide.
+London is a sample e-commerce company that sells holiday decor, baking and pantry items and vintage items worldwide.
 
-This project investigates sales and operational trends from 2019 to 2022 using a combination of Excel, SQL, and Tableau. Topics explored include revenue growth, product performance, refund rates, and shipping times. We also analyze the effectiveness of the company's loyalty program.
+The company has significant amounts of data on its Transactions, customers and  product offerings, that has been previously underutilized. This project thoroughly analyzes and synthesizes this data in order to uncover critical insights that will improve London's commercial success.
+
+Insights and recommendations are provided on the following key areas:
+
+**Sales Trends Analysis**: Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume, and Average Order Value (AOV).
+
+
+**Product Performance**: An analysis of the business's various product catergories, understanding their impact on Revenue, orders and returns.
+
 
 The data is organized across four tables: `Customers`, `Transactions`, `TransactionDetails`, `Products`,  and `Categories` .
 
-**Yearly Trends**  
+
 
 ---
 
