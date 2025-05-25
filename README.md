@@ -28,10 +28,10 @@ The company has significant amounts of data on its Transactions, customers and  
 
 Insights and recommendations are provided on the following key areas:
 
-**Sales Trends Analysis**: Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume, and Average Order Value (AOV).
+**Sales Trends Analysis**: Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume, and Average Order Value (AOV). Additional metrics such as product sales volume were also considered to support deeper insights where relevant.
 
 
-**Product Performance**: An analysis of the business's various product catergories, understanding their impact on Revenue, orders and returns.
+**Product Performance**: An analysis of the business's various products and product catergories, understanding their impact on Revenue, orders and returns.
 
 
 The data is organized across four tables: `Customers`, `Transactions`, `TransactionDetails`, `Products`,  and `Categories` .
