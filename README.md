@@ -1,4 +1,4 @@
-# London E-Commerce Business Analysis: 2018-2019
+# London E-Commerce Analysis: 2018-2019
 
 **Tableau dashboard showing tables, line graphs, and area charts for total sales, total orders, and average time to ship**
 
