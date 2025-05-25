@@ -12,11 +12,10 @@ Analyzing Elist order trends from 2019–2022.
 
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
-- [Part 1: Trends (Excel)](#part-1-trends-excel)  
-- [Part 2: Targeted Insights (SQL)](#part-2-targeted-insights-sql)  
-- [Part 3: Visualizations (Tableau)](#part-3-visualizations-tableau)  
-- [Part 4: Recommendations & Next Steps](#part-4-recommendations--next-steps)  
-- [Addendum: Notes on Data Cleaning](#addendum-notes-on-data-cleaning)
+- [Sales Trend Analysis (Excel/SQL)](#sales-trend-analysis-excelsql)  
+- [Product Performance (Excel/SQL)](#product-performance-excelsql)  
+- [Recommendations & Next Steps](#recommendations--next-steps)  
+- [Assumptions and Caveats](#assumptions-and-caveats)
 
 
 ---
@@ -35,8 +34,9 @@ Insights and recommendations are provided on the following key areas:
 **Product Performance**: An analysis of the business's various products and product catergories, understanding their impact on Revenue, orders and returns.
 
 
-The data is organized across four tables: `Customers`, `Transactions`, `TransactionDetails`, `Products`,  and `Categories` .
+The data is organized across four tables: `Customers`, `Transactions`, `TransactionDetails`, `Products`,  and `Categories` with a total row count of 536,355.
 
+Here is the Entity Relationship Diagram:
 
 ![ERD Diagram](data/ERD.png)
 
@@ -53,7 +53,7 @@ The data is organized across four tables: `Customers`, `Transactions`, `Transact
 
 
 ---
-## Part 1: Trends (Excel)
+## Sales Trend Analysis (Excel/SQL)
 
 [ Back to Table of Contents](#table-of-contents)
 
@@ -74,7 +74,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 ---
 
-## Part 2: Targeted Insights (SQL)
+## Product Performance (Excel/SQL)
 
 [ Back to Table of Contents](#table-of-contents)
 
@@ -82,8 +82,8 @@ Using Google BigQuery and SQL, I extracted insights such as:
 
 -  **MacBook Sales (North America)**  
   - Avg. 30 units/month with $47.8K revenue
--  **Refund Rates**  
-  - MacBook Air has the highest refund rate (4.2%)
+-  **Returns**  
+  - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
 -  **Account Creation (Jan–Feb 2022)**  
   - Desktop led to 2,487 new customers; tablet purchases had highest AOV
 -  **Time to Purchase**  
@@ -97,25 +97,8 @@ Using Google BigQuery and SQL, I extracted insights such as:
 
 ---
 
-## Part 3: Visualizations (Tableau)
 
-The Tableau dashboard includes:
-
--  **Orders**  
-  - 3 products make up 80% of all orders
--  **Shipping Times**  
-  - iPhones & Bose headphones show high delivery variability
--  **Sales Trends**  
-  - Gaming monitors lead revenue; charging packs lead volume but not value
-
->  Tools used: Tableau, BigQuery (data source), filters, area/line charts
-
-[View Tableau dashboard](#)  
-[Download Tableau workbook](#)
-
----
-
-## Part 4: Recommendations & Next Steps
+## Recommendations & Next Steps
 
 1. **Expand Loyalty Program**  
    Focus on customer retention via email campaigns and member-only promotions.
@@ -128,9 +111,18 @@ The Tableau dashboard includes:
 
 ---
 
-## Addendum: Notes on Data Cleaning
+## Assumptions and Caveats
+
+**Data cleaning**
 
 During the data cleaning process, I identified 9,956 duplicate entries in the original Excel dataset. To ensure the integrity and accuracy of the analysis, these duplicates were removed. As a result, the initial total of 536,350 entries was reduced to 526,394 entries. This step was crucial for maintaining the validity and reliability of the insights derived from the data.
+
+**Refund rate**
+Some refunds do not have matching sales records in the dataset, these refunds are excluded from the refund rate calculations since they skew the rate above 100%
+
+Refunds for products below 20 orders were excluded to ensure adequate sample size
+
+
 
 ---
 
