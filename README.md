@@ -65,16 +65,18 @@ Using Excel pivot tables and conditional formatting, I analyzed:
  **Yearly Trends**  
   - Revenue declined 53% YoY
   - Orders were down 48% YoY from 1852 to 954
-    - The company's sales peaked in November 2019 with 3100 orders generating  £7,650,200 
-in revenue. This perofrmance was fueled by a 36% increase of orders cointaining more cheap,high volume products.
-  - 
-  - Even though sales dipped in December 2019, the business still saw a 6% increase in revenue and a 19% rise in quantity sold from Q3 to Q4 2019.
+- The company's sales peaked in November 2019 with 3146 orders generating  £7,650,200 
+in revenue. This perofrmance was fueled by a 36% increase of orders cointaining more cheap,high sales volume products.
+- Even though sales dipped in December 2019, the business still saw a 6% increase in revenue and a 19% rise in quantity sold from Q3 to Q4 2019.
 
-  -   **Monthly trends**
+
+
+
+     **Monthly trends**
   - The AOV decline of 19% in November 2019 can be largely attributed to shift in product mix resulint in 15% decrease of the average rpice of a prodct sold that month and 8% decline items per order
   - Revenue decreased 22% and orders were down 16% in April 2019. This  290% increase in returns to 13700 total retruns quantity was 
 
-  - 
+    
    **Seasonality**
   - seasonality, order qunt, revenue, AOV HAD a peak in deceimber 2018 and subseqently dipped in jan and feb of next year likely due to the holiday season and the shopping frenzy that comes along with it, ,this could further be seen with a  25% and 10% in November 2019, return seasonality likely exists in january where consumers returned christmas and holiday related products,they increased  and average of 404% from December to jaunaury.  increases for orders and revenue  in september 2019 are explained by a 53% increase in sales of the Christmas and holiday decor category which accounted for 74% of all sales that month suggesting consumers of our products 
 
