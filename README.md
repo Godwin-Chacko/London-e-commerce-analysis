@@ -59,13 +59,26 @@ Here is the Entity Relationship Diagram:
 
 Using Excel pivot tables and conditional formatting, I analyzed:
 
--  **Yearly Trends**  
+ **Yearly Trends**  
+  - Revenue declined 53% YoY
+  - Orders were down 48% YoY from 1852 to 954
+    - The company's sales peaked in November 2019 with 3100 orders generating 7 mil in revenue. This perofrmance was fueled by a 36% increase of orders cointaining more cheap,high volume products.
   - 
-  - Despite the sales drawback in December 2019 the bussiness still enjoyed a 6% growth for revenue and 19% growth for quantity from Q419
--  **Seasonality**  
-  - Strongest months are typically in winter and spring.
--  **Monthly trends**  
-  - AOV declined 19% even before the supply chain disruptions from china
+  - Even though sales dipped in December 2019, the business still saw a 6% increase in revenue and a 19% rise in quantity sold from Q3 to Q4 2019.
+
+  -   **Monthly trends**
+  - The AOV decline of 19% in November 2019 can be largely attributed to shift in product mix resulint in 15% decrease of the average rpice of a prodct sold that month and 8% decline items per order
+  - Revenue decreased 22% and orders were down 16% in April 2019. This  290% increase in returns to 13700 total retruns
+
+  - 
+   **Seasonality**
+  - S.
+
+
+    
+ 
+
+
 -  **Regional sales**  
   - In 2019 88% of our products were sold in the UK and 12% were international.
   - 
