@@ -11,8 +11,8 @@ Analyzing Elist order trends from 2019–2022.
 
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
-- [Sales Trend Analysis (Excel/SQL)](#sales-trend-analysis-excelsqlpython)  
-- [Product Performance (Excel/SQL)](#product-performance-excelsql)  
+- [Sales Trend Analysis (Excel/SQL)](#sales-trend-analysis-excelsql)  
+- [Product Performance (Excel/SQL)](#product-performance-excelsqlpython)  
 - [Recommendations & Next Steps](#recommendations--next-steps)  
 - [Assumptions and Caveats](#assumptions-and-caveats)
 
@@ -45,7 +45,7 @@ Here is the Entity Relationship Diagram:
 
   ### Overview of findings
  
-After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15%. This decline can most likely be attributed to supply chain disutions in China that started in December 2019
+After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15%. This decline can most likely be attributed to supply chain disruptions in China that started in December 2019
 
 
 
@@ -64,11 +64,11 @@ After sales peaked in november 2019, all key performance indicators have decreas
 Using Excel pivot tables and conditional formatting, I analyzed:
 
  **Yearly Trends** 
- - **Revenue** declined **53% year-over-year (YoY)**
-- **Orders** were down **48% YoY**
-- **Average Order Value (AOV)** only decreased **8% YoY**, indicating that the **quality/value of orders remained stable** even as the **order quantity dropped by 48%**
-- The company’s **sales peaked in November 2019**, with **3,146 orders** generating **£7,650,200** in revenue. This strong performance was driven by a **36% increase in orders containing lower-priced, high-volume products**
-- Despite a dip in sales in **December 2019**, the business still recorded a **6% increase in revenue** and a **19% rise in quantity sold** from **Q3 to Q4 2019**
+- Revenue declined 53% year-over-year (YoY)
+- Orders were down 48% YoY
+- **Average Order Value (AOV) only decreased 8% YoY, indicating that the **quality/value of orders remained stable** even as the order quantity dropped by 48%
+- **The company’s sales peaked in November 2019**, with **3,146 orders** generating **£7,650,200** in revenue. This strong performance was driven by a **36% increase in orders containing lower-priced, high-volume products**
+- Despite a dip in sales in December 2019, the business still recorded a 6% increase in revenue and a 19% rise in quantity sold** from Q3 to Q4 2019
 
   -
 
@@ -79,6 +79,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
   - Revenue declined by 22% and order volume dropped 16% in April 2019. The primary driver of this downturn was a **290% surge in returns**, which rose sharply to a total of 13,700. Additionally, **product sales fell by 26%**, helping explain why the decline in revenue outpaced the drop in order quantity.
 
 
+**Chineese supply chain disruptions**
 
 
  
