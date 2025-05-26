@@ -22,7 +22,7 @@ Analyzing Elist order trends from 2019–2022.
 
 ## Project Background
 
-London is a sample e-commerce company that sells christmas and holiday decor, baking and pantry items, vintage and retro lunch bags, and vintage and retro kids items.
+This is a sales transaction data set of UK-based e-commerce (online retail) for one year. This London-based shop has been selling gifts and homewares for adults and children through the website since 2007. Their customers come from all over the world and usually make direct purchases for themselves. There are also small businesses that buy in bulk and sell to other customers through retail outlet channels.
 
 The company has significant amounts of data on its Transactions, customers and  product offerings, that has been previously underutilized. This project thoroughly analyzes and synthesizes this data in order to uncover critical insights that will improve London's commercial success.
 
@@ -46,9 +46,8 @@ Here is the Entity Relationship Diagram:
 
   ### Overview of findings
  
+After sales peaked in november 2019, all key perofmroance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15%. This decline can most likely be attributed to supply chain disutions in China that started in December 2019
 
-  21negfk'gemhfrg  ee eg ehe ghe e eeeee
-  feglgemeg;mgge
 
 
 
@@ -68,7 +67,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
   -   **Monthly trends**
   - The AOV decline of 19% in November 2019 can be largely attributed to shift in product mix resulint in 15% decrease of the average rpice of a prodct sold that month and 8% decline items per order
-  - Revenue decreased 22% and orders were down 16% in April 2019. This  290% increase in returns to 13700 total retruns
+  - Revenue decreased 22% and orders were down 16% in April 2019. This  290% increase in returns to 13700 total retruns quantity was 
 
   - 
    **Seasonality**
@@ -137,7 +136,7 @@ Using Google BigQuery and SQL, I extracted insights such as:
 
 **Data cleaning**
 
-During the data cleaning process, I identified 9,956 duplicate entries in the original Excel dataset. To ensure the integrity and accuracy of the analysis, these duplicates were removed. As a result, the initial total of 536,350 entries was reduced to 526,394 entries. This step was crucial for maintaining the validity and reliability of the insights derived from the data.
+During the data cleaning process, I identified 9,956 duplicate entries in the original Excel dataset. To ensure the integrity and accuracy of the analysis, these duplicates were removed. As a result, the initial total of 536,350 entries was reduced to 526,394 entries. This step was crucial for maintaining the validity and reliability of the insights derived from the data. 
 
 **Refund rate**
 Some refunds do not have matching sales records in the dataset, these refunds are excluded from the refund rate calculations since they skew the rate above 100%
