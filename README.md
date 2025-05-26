@@ -57,7 +57,7 @@ After sales peaked in november 2019, all key performance indicators have decreas
 
 ![image](https://github.com/user-attachments/assets/1de44a7a-4d16-445e-8f7f-1d0d73b6c5ab)
 
-
+[Download the Excel workbook](#)
 
 
 
@@ -108,7 +108,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 >  Key tools: Pivot tables, aggregation, conditional formatting
 
-[Download the Excel workbook](#)
+
 
 ---
 
@@ -123,14 +123,15 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
  **Revenue**  
  - Our top 50 most sold products only account for 4.5% of total revenue and product sales
-   -This makes ![image](https://github.com/user-attachments/assets/4aef4726-1ed1-43a1-9470-3841803ed28b)
+   -This makes sense
+    ![image](https://github.com/user-attachments/assets/4aef4726-1ed1-43a1-9470-3841803ed28b)
 
   - 
 
 
 -  **Orders**  
   - 
--  orders of Retro & Vintage kids items have grow significantly YoY  
+-  orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%
   - 
   **AOV*  
   - Avg. 51 days from account creation to first purchase
@@ -139,6 +140,21 @@ Using Excel pivot tables and conditional formatting, I analyzed:
   
  **Returns**  
   - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
+      ![return rate](https://github.com/user-attachments/assets/a5c345b8-740e-4d4f-a822-010757258ec9)
+ 
+
+
+**Return rate**  
+  - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
+      ![return rate](https://github.com/user-attachments/assets/a5c345b8-740e-4d4f-a822-010757258ec9)
+     - Most of these products have return rates at or above **50%**  , meaning they are returned  as often or more often than they are kept—indicating potential issues with product quality, accuracy of listings, or customer expectations.
+     - Average monthly return rate is 5.5%
+     - 
+
+ 
+
+
+    
 
 >  Key SQL techniques: CTEs, aggregates, nested queries, `CASE`, ` INNER JOIN`
 
@@ -160,7 +176,8 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 4. **Investigate high return rate and worst selling products**
 
 Review whether to discontinue products with return rates above 50% or consistently low sales performance, in order to streamline the product assortment and enhance profitability.
-   
+
+5. **create customer loyalty program to improve retention**
  
 
 ---
