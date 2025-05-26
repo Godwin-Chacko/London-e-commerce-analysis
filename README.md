@@ -90,9 +90,9 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 
  **Seasonality**
-  -  orders, revenue peaked in deceimber 2018 and subseqently dipped in jan and feb of next year likely due to the holiday season and the shopping frenzy that comes along with it.
-  -   return seasonality likely exists in january where consumers returned christmas and holiday related products,they increased  and average of 404% from December to jaunaury.
-  -   increases for orders and revenue  in september 2019 are explained by a 53% increase in sales of the Christmas and holiday decor category which accounted for 74% of all sales that month suggesting consumers of our products 
+  -  Orders and revenue peaked in December 2018 and subseqently dip in January and February 2019 likely due to typical holiday seasonality, as the December shopping surge tapered off
+  -   Return seasonality also appears evident in January, when consumers returned Christmas and holiday-related products. **Returns increased by an average of 404% from December 2018 to January 2019**
+  -   The increase in orders and revenue in September 2019 can be attributed to a** 53% rise in sales of the Christmas and holiday décor category**, which made up 74% of all  productsales that month. **This early spike suggests the impact of holiday or "Christmas creep"**, where seasonal shopping behavior begins well before Q4 as consumers prepare earlier for the holidays
 
 
     
@@ -101,6 +101,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 -  **Regional sales**  
   - In 2019 88% of our products were sold in the UK and 12% were international.
+  - International sales declined 2% YoY
   - 
 
 >  Key tools: Pivot tables, aggregation, conditional formatting
