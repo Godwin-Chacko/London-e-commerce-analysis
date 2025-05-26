@@ -22,7 +22,7 @@ Analyzing Elist order trends from 2019–2022.
 
 ## Project Background
 
-London is a sample e-commerce company that sells holiday decor, baking and pantry items and vintage items worldwide.
+London is a sample e-commerce company that sells christmas and holiday decor, baking and pantry items, vintage and retro lunch bags, and vintage and retro kids items.
 
 The company has significant amounts of data on its Transactions, customers and  product offerings, that has been previously underutilized. This project thoroughly analyzes and synthesizes this data in order to uncover critical insights that will improve London's commercial success.
 
@@ -60,13 +60,15 @@ Here is the Entity Relationship Diagram:
 Using Excel pivot tables and conditional formatting, I analyzed:
 
 -  **Yearly Trends**  
-  - 2020 had the highest AOV ($298), but 2022 saw a 44% drop in revenue YoY.
+  - 
+  - Despite the sales drawback in December 2019 the bussiness still enjoyed a 6% growth for revenue and 19% growth for quantity from Q419
 -  **Seasonality**  
   - Strongest months are typically in winter and spring.
--  **Product Performance**  
-  - AirPods dominate sales; Bose headphones consistently underperform.
--  **Loyalty Program Impact**  
-  - Loyalty members outspent non-members by $34 per order in 2022.
+-  **Monthly trends**  
+  - AOV declined 19% even before the supply chain disruptions from china
+-  **Regional sales**  
+  - In 2019 88% of our products were sold in the UK and 12% were international.
+  - 
 
 >  Key tools: Pivot tables, aggregation, conditional formatting
 
@@ -80,16 +82,23 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 Using Google BigQuery and SQL, I extracted insights such as:
 
--  **MacBook Sales (North America)**  
-  - Avg. 30 units/month with $47.8K revenue
--  **Returns**  
-  - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
--  **Account Creation (Jan–Feb 2022)**  
+
+ **Revenue**  
+ - Our top 50 most sold products only account for 4.5% of total revenue and product sales
+  - 
+
+
+-  **Orders**  
   - Desktop led to 2,487 new customers; tablet purchases had highest AOV
--  **Time to Purchase**  
+
+  - 
+  **AOV*  
   - Avg. 51 days from account creation to first purchase
-- **Marketing Channels**  
-  - Direct and email drive the most orders
+  - 
+
+  
+ **Returns**  
+  - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
 
 >  Key SQL techniques: CTEs, window functions, `QUALIFY`, `CASE`, `JOIN`
 
