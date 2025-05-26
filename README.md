@@ -71,7 +71,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
   - 
    **Seasonality**
-  - S.
+  - seasonality, order qunt, revenue, AOV HAD a peak in deceimber 2018 and subseqently dipped in jan and feb of next year likely due to the holiday season and the shopping frenzy that comes along with it, ,this could further be seen with a  25% and 10% in November 2019, return seasonality likely exists in january where consumers returned christmas and holiday related products,they increased  and average of 404% from December to jaunaury.  increases for orders and revenue  in september 2019 are explained by a 53% increase in sales of the Christmas and holiday decor category which accounted for 74% of all sales that month suggesting consumers of our products 
 
 
     
@@ -88,7 +88,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 ---
 
-## Product Performance (Excel/SQL)
+## Product Performance (Excel/SQL/Python)
 
 [ Back to Table of Contents](#table-of-contents)
 
@@ -102,7 +102,7 @@ Using Google BigQuery and SQL, I extracted insights such as:
 
 -  **Orders**  
   - Desktop led to 2,487 new customers; tablet purchases had highest AOV
-
+-  orders of Retro & Vintage kids items have grow significantly YoY
   - 
   **AOV*  
   - Avg. 51 days from account creation to first purchase
@@ -121,13 +121,13 @@ Using Google BigQuery and SQL, I extracted insights such as:
 
 ## Recommendations & Next Steps
 
-1. **Expand Loyalty Program**  
-   Focus on customer retention via email campaigns and member-only promotions.
+1. **Create or include category data**  
+   Our assortment of 3,768 products are too large to get analyze at the product level,
 2. **Grow High-Value Categories**  
    Add more computer hardware products to the catalog.
 3. **Track Financial KPIs**  
    Include CAC and COGS to assess net profit and LTV.
-4. **Resolve Shipping Delays**  
+4. **consider flagging and investigating products that dont **  
    Investigate fulfillment processes for iPhones and Bose products.
 
 ---
