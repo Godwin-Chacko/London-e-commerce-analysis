@@ -30,7 +30,7 @@ Insights and recommendations are provided on the following key areas:
 - **Sales Trends Analysis**: Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume, and Average Order Value (AOV). Additional metrics such as product sales volume were also considered to support deeper insights where relevant.
 
 
--**Product Performance**: An analysis of the business's various products and product catergories, understanding their impact on Revenue, orders and returns.
+- **Product Performance**: An analysis of the business's various products and product catergories, understanding their impact on Revenue, orders and returns.
 
 
 The data is organized across four tables: `Customers`, `Transactions`, `TransactionDetails`, `Products`,  and `Categories` with a total row count of 536,355.
@@ -55,26 +55,30 @@ After sales peaked in november 2019, all key performance indicators have decreas
 
 [ Back to Table of Contents](#table-of-contents)
 
-![image](https://github.com/user-attachments/assets/a1b8167a-5d23-4f3a-903d-04c36aebec1e)
+![image](https://github.com/user-attachments/assets/1de44a7a-4d16-445e-8f7f-1d0d73b6c5ab)
+
 
 
 
 
 Using Excel pivot tables and conditional formatting, I analyzed:
 
- **Yearly Trends**  
-  - Revenue declined 53% YoY
-  - Orders were down 48% YoY 
-  - AOV only decreased 8% YoY, meaning the quality/value of our orders reamained stable even when the quantity of orders fell 48%
-- The company's sales peaked in November 2019 with 3146 orders generating  £7,650,200 
-in revenue. This performance was fueled by a 36% increase of orders cointaining more cheap,high sales volume products.
-- Even though sales dipped in December 2019, the business still saw a 6% increase in revenue and a 19% rise in quantity sold from Q3 to Q4 2019.
+ **Yearly Trends** 
+ - **Revenue** declined **53% year-over-year (YoY)**
+- **Orders** were down **48% YoY**
+- **Average Order Value (AOV)** only decreased **8% YoY**, indicating that the **quality/value of orders remained stable** even as the **order quantity dropped by 48%**
+- The company’s **sales peaked in November 2019**, with **3,146 orders** generating **£7,650,200** in revenue. This strong performance was driven by a **36% increase in orders containing lower-priced, high-volume products**
+- Despite a dip in sales in **December 2019**, the business still recorded a **6% increase in revenue** and a **19% rise in quantity sold** from **Q3 to Q4 2019**
+
+  -
 
 
 
 **Monthly trends**
   - The AOV decline of 19% in November 2019 can be largely attributed to shift in product mix that resulted in a 15% decrease of the average price of a prodct sold that month. This was compounded with a 8% decline items per order from last month
-  - Revenue decreased 22% and orders were down 16% in April 2019. Th 290% increase in returns this month is to blame, growing to 13700 total retruns. Product sales were also down 26% this month which explains why revenue performed worse than order quantity
+  - Revenue declined by 22% and order volume dropped 16% in April 2019. The primary driver of this downturn was a **290% surge in returns**, which rose sharply to a total of 13,700. Additionally, **product sales fell by 26%**, helping explain why the decline in revenue outpaced the drop in order quantity.
+
+
 
 
  
