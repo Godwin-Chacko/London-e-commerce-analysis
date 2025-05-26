@@ -94,7 +94,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
   -   Return seasonality also appears evident in January, when consumers returned Christmas and holiday-related products. **Returns increased by an average of 404% from December 2018 to January 2019**
   -   The increase in orders and revenue in September 2019 can be attributed to a **53% rise in sales of the Christmas and holiday décor category**, which made up 74% of all  productsales that month. **This early spike suggests the impact of holiday or "Christmas creep"**, where seasonal shopping behavior begins well before Q4 as consumers prepare earlier for the holidays
 
-
+![image](https://github.com/user-attachments/assets/4aef4726-1ed1-43a1-9470-3841803ed28b)
     
  
 
@@ -124,7 +124,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
  **Revenue**  
  - Our top 50 most sold products only account for 4.5% of total revenue and product sales
    -This makes sense
-    ![image](https://github.com/user-attachments/assets/4aef4726-1ed1-43a1-9470-3841803ed28b)
+    
 
   - for sales made in December 2018, 24 rpdicts have only been bought 1 time since then, 85 prducts have been bougght 5 times or less within the 12 months
 
@@ -146,7 +146,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 **Return rate**  
    - Average monthly return rate is **5.5%** 
-  - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
+  - Across all years, Macbook Airs had the highest return rate at 99.6% followed by ThinkPads (3.8%) and iPhones (3.5%).
       ![return rate](https://github.com/user-attachments/assets/a5c345b8-740e-4d4f-a822-010757258ec9)
      - Most of these products have return rates at or above **50%**, meaning they are returned  as often or more often than they are kept—indicating potential issues with product quality, accuracy of listings, or customer expectations.
   
