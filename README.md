@@ -1,6 +1,5 @@
 # London E-Commerce Analysis: 2018-2019
 
-**Tableau dashboard showing tables, line graphs, and area charts for total sales, total orders, and average time to ship**
 
 Analyzing Elist order trends from 2019–2022.  
 👉 [View the interactive Tableau dashboard here](#)
@@ -12,7 +11,7 @@ Analyzing Elist order trends from 2019–2022.
 
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
-- [Sales Trend Analysis (Excel/SQL)](#sales-trend-analysis-excelsql)  
+- [Sales Trend Analysis (Excel/SQL)](#sales-trend-analysis-excelsqlpython)  
 - [Product Performance (Excel/SQL)](#product-performance-excelsql)  
 - [Recommendations & Next Steps](#recommendations--next-steps)  
 - [Assumptions and Caveats](#assumptions-and-caveats)
@@ -56,12 +55,18 @@ After sales peaked in november 2019, all key perofmroance indicators have decrea
 
 [ Back to Table of Contents](#table-of-contents)
 
+![image](https://github.com/user-attachments/assets/a1b8167a-5d23-4f3a-903d-04c36aebec1e)
+
+
+
+
 Using Excel pivot tables and conditional formatting, I analyzed:
 
  **Yearly Trends**  
   - Revenue declined 53% YoY
   - Orders were down 48% YoY from 1852 to 954
-    - The company's sales peaked in November 2019 with 3100 orders generating 7 mil in revenue. This perofrmance was fueled by a 36% increase of orders cointaining more cheap,high volume products.
+    - The company's sales peaked in November 2019 with 3100 orders generating  £7,650,200 
+in revenue. This perofrmance was fueled by a 36% increase of orders cointaining more cheap,high volume products.
   - 
   - Even though sales dipped in December 2019, the business still saw a 6% increase in revenue and a 19% rise in quantity sold from Q3 to Q4 2019.
 
@@ -92,7 +97,9 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 [ Back to Table of Contents](#table-of-contents)
 
-Using Google BigQuery and SQL, I extracted insights such as:
+
+
+
 
 
  **Revenue**  
@@ -101,7 +108,7 @@ Using Google BigQuery and SQL, I extracted insights such as:
 
 
 -  **Orders**  
-  - Desktop led to 2,487 new customers; tablet purchases had highest AOV
+  - 
 -  orders of Retro & Vintage kids items have grow significantly YoY
   - 
   **AOV*  
@@ -112,7 +119,7 @@ Using Google BigQuery and SQL, I extracted insights such as:
  **Returns**  
   - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
 
->  Key SQL techniques: CTEs, window functions, `QUALIFY`, `CASE`, `JOIN`
+>  Key SQL techniques: CTEs, aggregates, nested queries, `CASE`, ` INNER JOIN`
 
 [View SQL queries](#)
 
@@ -121,14 +128,16 @@ Using Google BigQuery and SQL, I extracted insights such as:
 
 ## Recommendations & Next Steps
 
-1. **Create or include category data**  
-   Our assortment of 3,768 products are too large to get analyze at the product level,
-2. **Grow High-Value Categories**  
-   Add more computer hardware products to the catalog.
-3. **Track Financial KPIs**  
-   Include CAC and COGS to assess net profit and LTV.
+1. **Create/improve category data**: Given the size of our product catalog(3,768), manually categorizing thousands of items is likely not feasible or scalable in the long term. To address this, I used k-means clustering to group products based on their similarities in attributes like name, . While this approach provides a useful starting point, it's an unsupervised method that doesn't account for context or business logic.For more accurate and business-aligned categorization, it may be worth exploring advanced predictive models—such as supervised classification algorithms which can learn from existing labeled data to make smarter categorization decisions. This model could deliver more consistent and relevant categories, especially as the product catalog continues to grow.
+
+
+
+2. **Grow High-Value Categories**:
+   
+3. **Track Financial KPIs**:  
+   
 4. **consider flagging and investigating products that dont **  
-   Investigate fulfillment processes for iPhones and Bose products.
+ 
 
 ---
 
@@ -136,12 +145,12 @@ Using Google BigQuery and SQL, I extracted insights such as:
 
 **Data cleaning**
 
-During the data cleaning process, I identified 9,956 duplicate entries in the original Excel dataset. To ensure the integrity and accuracy of the analysis, these duplicates were removed. As a result, the initial total of 536,350 entries was reduced to 526,394 entries. This step was crucial for maintaining the validity and reliability of the insights derived from the data. 
+-During the data cleaning process, I identified 9,956 duplicate entries in the original Excel dataset. To ensure the integrity and accuracy of the analysis, these duplicates were removed. As a result, the initial total of 536,350 entries was reduced to 526,394 entries. This step was crucial for maintaining the validity and reliability of the insights derived from the data. 
 
 **Refund rate**
-Some refunds do not have matching sales records in the dataset, these refunds are excluded from the refund rate calculations since they skew the rate above 100%
+-Some refunds do not have matching sales records in the dataset, these refunds are excluded from the refund rate calculations since they skew the rate above 100%
 
-Refunds for products below 20 orders were excluded to ensure adequate sample size
+-Refunds for products below 20 orders were excluded to ensure adequate sample size
 
 
 
