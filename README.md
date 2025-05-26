@@ -45,7 +45,7 @@ Here is the Entity Relationship Diagram after I normalized the raw data:
 
   ### Overview of findings
  
-After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15%. This decline can most likely be attributed to supply chain disruptions in China that started in December 2019
+After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15%. This decline can most likely be attributed to 
 
 
 
@@ -126,7 +126,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
    -This makes sense
     ![image](https://github.com/user-attachments/assets/4aef4726-1ed1-43a1-9470-3841803ed28b)
 
-  - 
+  - for sales made in December 2018, 24 rpdicts have only been bought 1 time since then, 85 prducts have been bougght 5 times or less within the 12 months
 
 
 -  **Orders**  
@@ -134,13 +134,13 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 -  orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%
   - 
   **AOV*  
-  - Avg. 51 days from account creation to first purchase
+  - 
   - 
 
   
  **Returns**  
   - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
-      ![return rate](https://github.com/user-attachments/assets/a5c345b8-740e-4d4f-a822-010757258ec9)
+    
  
 
 
@@ -148,7 +148,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
    - Average monthly return rate is **5.5%** 
   - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
       ![return rate](https://github.com/user-attachments/assets/a5c345b8-740e-4d4f-a822-010757258ec9)
-     - Most of these products have return rates at or above **50%**  , meaning they are returned  as often or more often than they are kept—indicating potential issues with product quality, accuracy of listings, or customer expectations.
+     - Most of these products have return rates at or above **50%**, meaning they are returned  as often or more often than they are kept—indicating potential issues with product quality, accuracy of listings, or customer expectations.
   
      - 
 
