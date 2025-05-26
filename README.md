@@ -35,7 +35,7 @@ Insights and recommendations are provided on the following key areas:
 
 The data is organized across four tables: `Customers`, `Transactions`, `TransactionDetails`, `Products`,  and `Categories` with a total row count of 536,355.
 
-Here is the Entity Relationship Diagram:
+Here is the Entity Relationship Diagram after I normalized the raw data:
 
 ![ERD Diagram](data/ERD.png)
 
@@ -66,25 +66,33 @@ Using Excel pivot tables and conditional formatting, I analyzed:
  **Yearly Trends** 
 - Revenue declined 53% year-over-year (YoY)
 - Orders were down 48% YoY
-- **Average Order Value (AOV) only decreased 8% YoY, indicating that the **quality/value of orders remained stable** even as the order quantity dropped by 48%
-- **The company’s sales peaked in November 2019**, with **3,146 orders** generating **£7,650,200** in revenue. This strong performance was driven by a **36% increase in orders containing lower-priced, high-volume products**
+- 37% decrease in Customers YoY
+- 26% customer retention YoY only 279 customers in Dec 2018 returned in 2019, this could potentially be a great result since 26% falls within the average range for retail/e-commerce, and we acheived it during tumultous cirumstances
+- Average Order Value (** AOV** ) only decreased 8% YoY, indicating that the **quality/value of orders remained stable** even as the order quantity dropped by 48%
+- **The company’s sales peaked in November 2019**,  **with ** **3,146 orders**  **generating ** **£7,650,200**  **in revenue **. This strong performance was driven by a **36% increase in orders containing lower-priced, high-volume products**
 - Despite a dip in sales in December 2019, the business still recorded a 6% increase in revenue and a 19% rise in quantity sold** from Q3 to Q4 2019
 
-  -
+  
 
 
 
 **Monthly trends**
-  - The AOV decline of 19% in November 2019 can be largely attributed to shift in product mix that resulted in a 15% decrease of the average price of a prodct sold that month. This was compounded with a 8% decline items per order from last month
+  - The AOV decline of 19% in November 2019 can be largely attributed to **shift in product mix that resulted in a 15% decrease of the average price of a prodct sold that month**. This was compounded with a 8% decline items per order from last month
+
+    
   - Revenue declined by 22% and order volume dropped 16% in April 2019. The primary driver of this downturn was a **290% surge in returns**, which rose sharply to a total of 13,700. Additionally, **product sales fell by 26%**, helping explain why the decline in revenue outpaced the drop in order quantity.
 
-
-**Chineese supply chain disruptions**
-
-
+    
+  - **The 74% drop in revenue and 70% decline in orders from November to December 2019 coincided with a surge in returns to 84,000 units—a 434% YoY increase** .
+  - Unlike the previous year’s returns peak in January, December 2019 saw unusually high returns within the month itself. This suggests a **loss of consumer confidence in product availability and fulfillment timing—especially if customers couldn’t get items in time for the holiday season**—likely caused by delays, unmet expectations, and growing COVID-19 fears. Consequently, many customers likely reduced or canceled orders. 
  
+
+
+
  **Seasonality**
-  -  orders, revenue peaked in deceimber 2018 and subseqently dipped in jan and feb of next year likely due to the holiday season and the shopping frenzy that comes along with it, return seasonality likely exists in january where consumers returned christmas and holiday related products,they increased  and average of 404% from December to jaunaury.  increases for orders and revenue  in september 2019 are explained by a 53% increase in sales of the Christmas and holiday decor category which accounted for 74% of all sales that month suggesting consumers of our products 
+  -  orders, revenue peaked in deceimber 2018 and subseqently dipped in jan and feb of next year likely due to the holiday season and the shopping frenzy that comes along with it.
+  -   return seasonality likely exists in january where consumers returned christmas and holiday related products,they increased  and average of 404% from December to jaunaury.
+  -   increases for orders and revenue  in september 2019 are explained by a 53% increase in sales of the Christmas and holiday decor category which accounted for 74% of all sales that month suggesting consumers of our products 
 
 
     
