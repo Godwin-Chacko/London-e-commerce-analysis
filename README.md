@@ -27,7 +27,7 @@ The company has significant amounts of data on its Transactions, customers and  
 
 Insights and recommendations are provided on the following key areas:
 
-- **Sales Trends Analysis**: Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume, and Average Order Value (AOV). Additional metrics such as product sales volume were also considered to support deeper insights where relevant.
+- **Sales Trends Analysis**: Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume, and Average Order Value (AOV). Additional metrics were also considered to support deeper insights where relevant.
 
 
 - **Product Performance**: An analysis of the business's various products and product catergories, understanding their impact on Revenue, orders and returns.
@@ -92,7 +92,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
  **Seasonality**
   -  Orders and revenue peaked in December 2018 and subseqently dip in January and February 2019 likely due to typical holiday seasonality, as the December shopping surge tapered off
   -   Return seasonality also appears evident in January, when consumers returned Christmas and holiday-related products. **Returns increased by an average of 404% from December 2018 to January 2019**
-  -   The increase in orders and revenue in September 2019 can be attributed to a** 53% rise in sales of the Christmas and holiday décor category**, which made up 74% of all  productsales that month. **This early spike suggests the impact of holiday or "Christmas creep"**, where seasonal shopping behavior begins well before Q4 as consumers prepare earlier for the holidays
+  -   The increase in orders and revenue in September 2019 can be attributed to a **53% rise in sales of the Christmas and holiday décor category**, which made up 74% of all  productsales that month. **This early spike suggests the impact of holiday or "Christmas creep"**, where seasonal shopping behavior begins well before Q4 as consumers prepare earlier for the holidays
 
 
     
@@ -100,9 +100,11 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 
 -  **Regional sales**  
-  - In 2019 88% of our products were sold in the UK and 12% were international.
+  - In 2019 82% of our products were sold in the UK and 15% were international.
   - International sales declined 2% YoY
-  - 
+  - **82% of International sales are from Europe excluding the UK** in 2019
+  - 16% of international sales are from APAC in 2019
+    
 
 >  Key tools: Pivot tables, aggregation, conditional formatting
 
