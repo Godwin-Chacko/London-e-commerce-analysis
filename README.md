@@ -145,10 +145,11 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 
 **Return rate**  
+   - Average monthly return rate is **5.5%** 
   - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
       ![return rate](https://github.com/user-attachments/assets/a5c345b8-740e-4d4f-a822-010757258ec9)
      - Most of these products have return rates at or above **50%**  , meaning they are returned  as often or more often than they are kept—indicating potential issues with product quality, accuracy of listings, or customer expectations.
-     - Average monthly return rate is 5.5%
+  
      - 
 
  
