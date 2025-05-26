@@ -45,7 +45,7 @@ Here is the Entity Relationship Diagram:
 
   ### Overview of findings
  
-After sales peaked in november 2019, all key perofmroance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15%. This decline can most likely be attributed to supply chain disutions in China that started in December 2019
+After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15%. This decline can most likely be attributed to supply chain disutions in China that started in December 2019
 
 
 
@@ -64,21 +64,22 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
  **Yearly Trends**  
   - Revenue declined 53% YoY
-  - Orders were down 48% YoY from 1852 to 954
+  - Orders were down 48% YoY 
+  - AOV only decreased 8% YoY, meaning the quality/value of our orders reamained stable even when the quantity of orders fell 48%
 - The company's sales peaked in November 2019 with 3146 orders generating  £7,650,200 
-in revenue. This perofrmance was fueled by a 36% increase of orders cointaining more cheap,high sales volume products.
+in revenue. This performance was fueled by a 36% increase of orders cointaining more cheap,high sales volume products.
 - Even though sales dipped in December 2019, the business still saw a 6% increase in revenue and a 19% rise in quantity sold from Q3 to Q4 2019.
 
 
 
+**Monthly trends**
+  - The AOV decline of 19% in November 2019 can be largely attributed to shift in product mix that resulted in a 15% decrease of the average price of a prodct sold that month. This was compounded with a 8% decline items per order from last month
+  - Revenue decreased 22% and orders were down 16% in April 2019. Th 290% increase in returns this month is to blame, growing to 13700 total retruns. Product sales were also down 26% this month which explains why revenue performed worse than order quantity
 
-     **Monthly trends**
-  - The AOV decline of 19% in November 2019 can be largely attributed to shift in product mix resulint in 15% decrease of the average rpice of a prodct sold that month and 8% decline items per order
-  - Revenue decreased 22% and orders were down 16% in April 2019. This  290% increase in returns to 13700 total retruns quantity was 
 
-    
-   **Seasonality**
-  - seasonality, order qunt, revenue, AOV HAD a peak in deceimber 2018 and subseqently dipped in jan and feb of next year likely due to the holiday season and the shopping frenzy that comes along with it, ,this could further be seen with a  25% and 10% in November 2019, return seasonality likely exists in january where consumers returned christmas and holiday related products,they increased  and average of 404% from December to jaunaury.  increases for orders and revenue  in september 2019 are explained by a 53% increase in sales of the Christmas and holiday decor category which accounted for 74% of all sales that month suggesting consumers of our products 
+ 
+ **Seasonality**
+  -  orders, revenue peaked in deceimber 2018 and subseqently dipped in jan and feb of next year likely due to the holiday season and the shopping frenzy that comes along with it, return seasonality likely exists in january where consumers returned christmas and holiday related products,they increased  and average of 404% from December to jaunaury.  increases for orders and revenue  in september 2019 are explained by a 53% increase in sales of the Christmas and holiday decor category which accounted for 74% of all sales that month suggesting consumers of our products 
 
 
     
@@ -106,12 +107,14 @@ in revenue. This perofrmance was fueled by a 36% increase of orders cointaining 
 
  **Revenue**  
  - Our top 50 most sold products only account for 4.5% of total revenue and product sales
+   -This makes ![image](https://github.com/user-attachments/assets/4aef4726-1ed1-43a1-9470-3841803ed28b)
+
   - 
 
 
 -  **Orders**  
   - 
--  orders of Retro & Vintage kids items have grow significantly YoY
+-  orders of Retro & Vintage kids items have grow significantly YoY  
   - 
   **AOV*  
   - Avg. 51 days from account creation to first purchase
@@ -138,7 +141,10 @@ in revenue. This perofrmance was fueled by a 36% increase of orders cointaining 
    
 3. **Track Financial KPIs**:  
    
-4. **consider flagging and investigating products that dont **  
+4. **Investigate high return rate and worst selling products**
+
+Review whether to discontinue products with return rates above 50% or consistently low sales performance, in order to streamline the product assortment and enhance profitability.
+   
  
 
 ---
