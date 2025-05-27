@@ -139,16 +139,16 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
   
  **Returns**  
-  - Across all years, Macbook Airs had the highest refund rate at 4.2% followed by ThinkPads (3.8%) and iPhones (3.5%).
+  - Christmas and holiday décor accounts for an average of 40% of product sales, but it represents 80% of returns, even when excluding December and January, during which this category makes up 97% of all returns.
     
  
 
 
 **Return rate**  
    - Average monthly return rate is **5.5%** 
-  - Across all years, Macbook Airs had the highest return rate at 99.6% followed by ThinkPads (3.8%) and iPhones (3.5%).
+  - Across all years, Rotating Silver Angels T-Light Hlder had the highest return rate at 99.6% followed by Medium Ceramic Top Storage Jar(95.6%) and Pantry Chopping Board (82%).
       ![return rate](https://github.com/user-attachments/assets/a5c345b8-740e-4d4f-a822-010757258ec9)
-     - Most of these products have return rates at or above **50%**, meaning they are returned  as often or more often than they are kept—indicating potential issues with product quality, accuracy of listings, or customer expectations.
+     - Most of these products have return rates at or above **50%**, meaning they are returned  as often or more often than they are kept,indicating potential issues with product quality, accuracy of listings, or customer expectations.
   
      - 
 
