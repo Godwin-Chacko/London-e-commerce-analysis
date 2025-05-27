@@ -123,10 +123,8 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
  **Revenue**  
  - Our top 50 most sold products only account for 4.5% of total revenue and product sales
-   -This makes sense
-    
-
-  - for sales made in December 2018, 24 rpdicts have only been bought 1 time since then, 85 prducts have been bougght 5 times or less within the 12 months
+ - This makes sense
+ - for sales made in December 2018, 24 products have only been bought 1 time since then, 85 products have been bought 5 times or less in 2019
 
 
 -  **Orders**  
@@ -139,7 +137,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
   
  **Returns**  
-  - Christmas and holiday décor accounts for an average of 40% of product sales, but it represents 80% of returns, even when excluding December and January, during which this category makes up 97% of all returns.
+  - Christmas and holiday décor accounts for 40% of orders across all years, but it represents **80% of returns**, even when excluding December and January, during which this **category makes up 97% of all returns**.
     
  
 
