@@ -128,8 +128,9 @@ Using Excel pivot tables and conditional formatting, I analyzed:
  **Revenue**  
  - Our top 50 most sold products only account for 4.5% of total revenue and product sales
  - 84% of our revenue came from the Christmas & Holdiay decor category at year end 2019 and **96% of revenue comes from our 3 best performing categories(Baking & Pantry Essentials, Christmas & Holiday Decor, Kids,Retro & Vintage Lunch Bags')**.
+ - Product sales of Christmas and Holiday Décor show a very strong relationship between quantity sold and revenue, with an R² of 0.95. This means that **95% of the changes in revenue of Christmas and Holiday Décor can be explained by how much of the cateogry is sold**.
  - 
- -  Retro and Vintage kids items were the only cateory where revenue increased YoY,
+ -  Retro and Vintage kids items were the only cateory where revenue increased YoY(19% growth),
  - 
  - For sales made in December 2018, **24 products have only been bought 1 time since then, 85 products have been bought 5 times or less** in 2019
  - **The decline in AOV and revenue per unit(63%) for the Retro & Vintage Kids' Items category can be attributed to a shift in product mix toward higher-volume, lower-value items**. In November 2019, top-selling products included mass-market alphabet bags and accessories with significantly lower AOVs compared to the more premium, collectible items that led in December 2018. This product mix change diluted both AOV and unit revenue.
