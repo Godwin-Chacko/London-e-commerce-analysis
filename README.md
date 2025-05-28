@@ -123,15 +123,18 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
  **Revenue**  
  - Our top 50 most sold products only account for 4.5% of total revenue and product sales
- - This makes sense
- - for sales made in December 2018, 24 products have only been bought 1 time since then, 85 products have been bought 5 times or less in 2019
+ - 
+ - For sales made in December 2018, **24 products have only been bought 1 time since then, 85 products have been bought 5 times or less** in 2019
+ - **The decline in AOV and revenue per unit for the Retro & Vintage Kids' Items category can be attributed to a shift in product mix toward higher-volume, lower-value items**. In November 2019, top-selling products included mass-market alphabet bags and accessories with significantly lower AOVs compared to the more premium, collectible items that led in December 2018. This product mix change diluted both AOV and unit revenue.
+Despite this, **the category experienced a 7x year-over-year revenue increase**, suggesting that the business successfully scaled by targeting a broader customer base with more accessible price points. The trade-off was lower revenue per transaction, but substantially higher sales volume and market reach
 
 
--  **Orders**  
+
+ 
   - 
 -  orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%
   - 
-  **AOV*  
+   **OV** 
   - 
   - 
 
