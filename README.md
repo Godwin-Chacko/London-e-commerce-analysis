@@ -21,7 +21,7 @@ Analyzing Elist order trends from 2019–2022.
 
 ## Project Background
 
-This is a sales transaction data set of UK-based e-commerce (online retail) for one year. This London-based shop has been selling gifts and homewares for adults and children through the website since 2007. Their customers come from all over the world and usually make direct purchases for themselves. There are also small businesses that buy in bulk and sell to other customers through retail outlet channels.
+This is a sales transaction data set of UK-based e-commerce (online retail) for one year. This London-based shop has been selling Baking & Pantry Essentials, Christmas & Holiday Decor, Kids' Tableware & Party Decor, Retro & Vintage Kids' Items, Retro & Vintage Lunch Bags through the website since 2007. Their customers come from all over the world and usually make direct purchases for themselves. There are also small businesses that buy in bulk and sell to other customers through retail outlet channels.
 
 The company has significant amounts of data on its Transactions, customers and  product offerings, that has been previously underutilized. This project thoroughly analyzes and synthesizes this data in order to uncover critical insights that will improve London's commercial success.
 
@@ -46,6 +46,9 @@ Here is the Entity Relationship Diagram after I normalized the raw data:
   ### Overview of findings
  
 After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15%. This decline can most likely be attributed to 
+
+
+![image](https://github.com/user-attachments/assets/bebcd394-5ae9-47a3-92a3-0154066e37a9)
 
 
 
@@ -84,7 +87,8 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
     
   - **The 74% drop in revenue and 70% decline in orders from November to December 2019 coincided with a surge in returns to 84,000 units—a 434% YoY increase** .
-  - Unlike the previous year’s returns peak in January, December 2019 saw unusually high returns within the month itself. This suggests a **loss of consumer confidence in product availability and fulfillment timing—especially if customers couldn’t get items in time for the holiday season**—likely caused by delays, unmet expectations, and growing COVID-19 fears. Consequently, many customers likely reduced or canceled orders. 
+  - Unlike the previous year’s returns peak in January, December 2019 saw unusually high returns within the month itself. This suggests a **loss of consumer confidence in product availability and fulfillment timing—especially if customers couldn’t get items in time for the holiday season**—likely caused by delays, unmet expectations, and growing COVID-19 fears. Consequently, many customers likely reduced or canceled orders.
+     
  
 
 
@@ -123,18 +127,22 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
  **Revenue**  
  - Our top 50 most sold products only account for 4.5% of total revenue and product sales
+ - 84% of our revenue came from the Christmas and Holdiay decor category at year end 2019 and 96% of revenue comes from our 3 best performing categories
+ - 
+ -  Retro and Vintage kids items were the only cateory where revenue increased YoY
  - 
  - For sales made in December 2018, **24 products have only been bought 1 time since then, 85 products have been bought 5 times or less** in 2019
- - **The decline in AOV and revenue per unit for the Retro & Vintage Kids' Items category can be attributed to a shift in product mix toward higher-volume, lower-value items**. In November 2019, top-selling products included mass-market alphabet bags and accessories with significantly lower AOVs compared to the more premium, collectible items that led in December 2018. This product mix change diluted both AOV and unit revenue.
-Despite this, **the category experienced a 7x year-over-year revenue increase**, suggesting that the business successfully scaled by targeting a broader customer base with more accessible price points. The trade-off was lower revenue per transaction, but substantially higher sales volume and market reach
+ - **The decline in AOV and revenue per unit(63%) for the Retro & Vintage Kids' Items category can be attributed to a shift in product mix toward higher-volume, lower-value items**. In November 2019, top-selling products included mass-market alphabet bags and accessories with significantly lower AOVs compared to the more premium, collectible items that led in December 2018. This product mix change diluted both AOV and unit revenue.
+ - Despite this, **the category experienced a 7x revenue increase by November 2019 and 19% growth YoY**, suggesting that the business successfully scaled by targeting a broader customer base with more accessible price points. The trade-off was lower revenue per transaction, but substantially higher sales volume and market reach
 
 
 
- 
+
+  **Orders**
   - 
--  orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%
-  - 
-   **OV** 
+  - orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%, despite this growth
+  -  Investigate AOV peaks for reto and vintage kids items
+   
   - 
   - 
 
@@ -172,10 +180,11 @@ Despite this, **the category experienced a 7x year-over-year revenue increase**,
 
 
 2. **Grow High-Value Categories**:
+ 96% of revenue comes from our 3 best performing categories
    
-3. **Track Financial KPIs**:  
+4. **Track Financial KPIs**:  
    
-4. **Investigate high return rate and worst selling products**
+5. **Investigate high return rate and worst selling products**
 
 Review whether to discontinue products with return rates above 50% or consistently low sales performance, in order to streamline the product assortment and enhance profitability.
 
