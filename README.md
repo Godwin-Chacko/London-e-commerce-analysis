@@ -128,8 +128,8 @@ Using Excel pivot tables and conditional formatting, I analyzed:
  **Revenue**  
  - Our top 50 most sold products only account for 4.5% of total revenue and product sales
  - 84% of our revenue came from the Christmas & Holdiay decor category at year end 2019 and **96% of revenue comes from our 3 best performing categories(Baking & Pantry Essentials, Christmas & Holiday Decor, Kids,Retro & Vintage Lunch Bags')**.
- - Product sales of Christmas and Holiday Décor show a very strong relationship between quantity sold and revenue, with an R² of 0.95. This means that **95% of the changes in revenue of Christmas and Holiday Décor can be explained by how much of the cateogry is sold**.
-   = same thing for baking and pantry essentials with 0.85
+ - 95% of the changes in revenue for Christmas and Holiday Décor can be explained by how much of the category is sold (R² = 0.95)
+  -85% of the variation in revenue for Baking & Pantry Essentials can be explained by changes in the quantity sold.
  -  Retro and Vintage kids items were the only cateory where revenue increased YoY(19% growth),
  - 
  - For sales made in December 2018, **24 products have only been bought 1 time since then, 85 products have been bought 5 times or less** in 2019
@@ -141,7 +141,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
   **Orders**
   - 
-  - orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%, this growth likely does not translate to revenue because of the changes in pr
+  - orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%, this growth likely did not translate to revenue( 19% growth) because of the changes in product mix
   -  Investigate AOV peaks for reto and vintage kids items
    
   - Market basket analysis:
@@ -149,7 +149,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
   
  **Returns**  
-  - Christmas and holiday décor accounts for 40% of orders across all years, but it represents **80% of returns** excluding December and January,when During these months this **category makes up 97% of all returns**.
+  - **Christmas and holiday décor accounts for 40% of orders across all years, but it represents **80% of returns** excluding December and January,when During these months this **category makes up 97% of all returns**.
   - Investigate return peaks of non chrsitme items
     
  
