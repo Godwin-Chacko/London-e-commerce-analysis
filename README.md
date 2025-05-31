@@ -188,29 +188,16 @@ Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessori
 
 - **Create/improve category data**: Given the size of our product catalog(3,768), manually categorizing thousands of items is likely not feasible or scalable in the long term. To address this, I used k-means clustering to group products based on their similarities in attributes like name, . While this approach provides a useful starting point, it's an unsupervised method that doesn't account for context or business logic.For more accurate and business-aligned categorization, it may be worth exploring advanced predictive models—such as supervised classification algorithms which can learn from existing labeled data to make smarter categorization decisions. This model could deliver more consistent and relevant categories, especially as the product catalog continues to grow.
 
-
-
-- **Grow High-Value Categories**:
- 96% of revenue comes from our 3 best performing categories
    
-- **Track Financial KPIs**:  
-   
-- **Investigate high return rate and worst selling products**
+- **Investigate high return rate and worst selling products**:Review whether to discontinue products with return rates above 50% or consistently low sales performance, in order to streamline the product assortment and enhance profitability.
 
-Review whether to discontinue products with return rates above 50% or consistently low sales performance, in order to streamline the product assortment and enhance profitability.
+- **create customer loyalty program to improve retention**: Implementing a well-designed customer loyalty program can significantly enhance repeat purchase behavior and improve customer lifetime value. While our current customer retention rate is around average, a loyalty program would help differentiate our brand, especially in a competitive e-commerce environment.By offering points, discounts, or early access to new or seasonal products, we can incentivize repeat purchases and increase customer engagement. This is especially valuable for high-performing categories like Christmas & Holiday Décor, where customers may return annually,loyalty rewards can encourage them to choose us again over competitors. A loyalty program can also support help improve the weak AOV in  other categories 
 
-- **create customer loyalty program to improve retention**
-
-- **Promotional Bundling Strategy**:Given the **year-over-year decline in Average Order Value (AOV)**, implementing product bundling can be an effective way to increase AOV. Bundling **compatible products** offers customers a **convenient, one-stop solution**, particularly for categories like party supplies and seasonal décor.
- **Enhance Convenience**
-Create bundles that simplify the shopping experience. For example:**Kids' Tableware, Party Decor & Modern Accessories**:Themed bundles that include matching tableware, party favors, and decorations. Or**Kitchen, Pantry & Select Home Goods**: Curated sets such as *"Baking Starter Kits"* or *"Home Essentials"*.Promote **holiday-themed bundles** during peak sales periods (e.g., Christmas) to maximize revenue from the **Christmas & Holiday Décor** category, which already performs strongly during this season. **Boost Perceived Value** by
-Strategically price bundles so they appear more cost-effective than purchasing items individually, encouraging higher spend per transaction. .
+- **Promotional Bundling Strategy**: Given the year-over-year decline in Average Order Value (AOV), bundling compatible products can effectively boost AOV. It also offers a convenient, one-stop solution for customers, especially in categories like party supplies and seasonal décor. Enhance convenience by creating themed bundles—for example, Kids' Tableware, Party Decor & Modern Accessories could include matching tableware, party favors, and decorations. Or, Kitchen, Pantry & Select Home Goods could offer curated sets like "Baking Starter Kits" or "Home Essentials." Promote seasonal bundles during peak periods (e.g., Christmas) to maximize revenue in the Christmas & Holiday Décor category. Boost perceived value by pricing bundles to appear more cost-effective than buying items individually, encouraging higher spending per transaction.
 
    
 - **Investigate refund ratio discrepancies**: Multiple return transactions show refund prices significantly lower or greater than original sale prices. This may result from data entry errors, incorrect transaction matching, or missing business rules. A focused data audit is recommended to match returns to correct sales, quantify anomalies, and clarify refund policies to ensure accurate reporting and protect data integrity.
 
-
--
 - **Diversify to international markets especially USA**: Since Christmas & holiday merchandize makes up 81 - 84% of our revenue it is critcal that we continue to grow in the american market where Christmas shopping is highly commercialized and represents the largest opportunity for seasonal sales growth
 
 
