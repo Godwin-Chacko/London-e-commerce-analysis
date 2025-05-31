@@ -143,8 +143,8 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 **Orders**
 
-  
 - orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%
+- AOV of Christmas & Holiday Merchandise 5.5x greater than avg AOV of all other categories
 -  Investigate AOV peaks for reto and vintage kids items
    
 - Market basket analysis:
@@ -153,9 +153,9 @@ Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessori
 
 **Returns**    
 - **Christmas & Holiday Merchandise accounts for 40% of orders** across all years, but it represents **80% of returns** excluding December and January,when During these months this **category makes up 97% of all returns**.
- - Investigate return peaks of non chrsitme items
+- Investigate return peaks of non chrsitme items
 -Product with most returns is **Medium Ceramic Top Storage Jar where a customer ordered £800k( 7% of Q1 2019 revenue)  worth of product and returned it on the same day** 
--The product Paper Craft Little Birdie with the largest single-transaction of **revenue and quantity (80,995 units, £1.0 M)** was purchased customer on 2019-12-09 and fully returned the same day,resulting in returns of over £500 K (≈ 3 % of Q4 revenue). **This still resulted in a net revenue of £500 K increase** as the value of the goods returned was only 50% of the price the goods were sold for. 
+-The product Paper Craft Little Birdie has the largest single-transaction of **revenue and quantity (80,995 units, £1.0 M)** was purchased customer on 2019-12-09 and fully returned the same day,resulting in returns of over £500 K (≈ 3 % of Q4 revenue). **This still resulted in a net revenue of £500 K increase** as the value of the goods returned was only 50% of the price the goods were sold for. 
   
 
 
@@ -200,13 +200,21 @@ Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessori
 Review whether to discontinue products with return rates above 50% or consistently low sales performance, in order to streamline the product assortment and enhance profitability.
 
 - **create customer loyalty program to improve retention**
+
+- **Promotional Bundling Strategy**:Given the **year-over-year decline in Average Order Value (AOV)**, implementing product bundling can be an effective way to increase AOV. Bundling **compatible products** offers customers a **convenient, one-stop solution**, particularly for categories like party supplies and seasonal décor.
+ **Enhance Convenience**
+Create bundles that simplify the shopping experience. For example:**Kids' Tableware, Party Decor & Modern Accessories**:Themed bundles that include matching tableware, party favors, and decorations. Or**Kitchen, Pantry & Select Home Goods**: Curated sets such as *"Baking Starter Kits"* or *"Home Essentials"*.Promote **holiday-themed bundles** during peak sales periods (e.g., Christmas) to maximize revenue from the **Christmas & Holiday Décor** category, which already performs strongly during this season. **Boost Perceived Value** by
+Strategically price bundles so they appear more cost-effective than purchasing items individually, encouraging higher spend per transaction. .
+
    
 - **Investigate refund ratio discrepancies**: Multiple return transactions show refund prices significantly lower or greater than original sale prices. This may result from data entry errors, incorrect transaction matching, or missing business rules. A focused data audit is recommended to match returns to correct sales, quantify anomalies, and clarify refund policies to ensure accurate reporting and protect data integrity.
 
-- Diversry to international markets especially usa, Since christmas and holiday decors makes up 81 - 84% of our revenue it is vital that we continue to grow in the american market where christmas shopping is most commercialized and is the biggest market
+
+-
+- **Diversify to international markets especially USA**: Since Christmas & holiday merchandize makes up 81 - 84% of our revenue it is critcal that we continue to grow in the american market where Christmas shopping is highly commercialized and represents the largest opportunity for seasonal sales growth
+
 
  
-
 ---
 
 ## Assumptions and Caveats
