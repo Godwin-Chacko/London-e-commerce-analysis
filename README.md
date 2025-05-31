@@ -146,6 +146,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 - orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%
 - AOV of Christmas & Holiday Merchandise 5.5x greater than avg AOV of all other categories
 -  Investigate AOV peaks for reto and vintage kids items
+-  items per order by category
    
 - Market basket analysis:
 - 
