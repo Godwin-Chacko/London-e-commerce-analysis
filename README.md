@@ -48,7 +48,8 @@ Here is the Entity Relationship Diagram after I normalized the raw data:
 After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15%. This decline can most likely be attributed to 
 
 
-![image](https://github.com/user-attachments/assets/bebcd394-5ae9-47a3-92a3-0154066e37a9)
+![image](https://github.com/user-attachments/assets/66af3f6b-42ca-48f6-bf51-61c05bf881e3)
+
 
 
 
@@ -60,7 +61,7 @@ After sales peaked in november 2019, all key performance indicators have decreas
 
 ![image](https://github.com/user-attachments/assets/1de44a7a-4d16-445e-8f7f-1d0d73b6c5ab)
 
-[Download the Excel workbook](#)
+
 
 
 
@@ -129,9 +130,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
  - Our top 50 most sold products only account for 4.5% of total revenue and product sales
  - 84% of our revenue came from the Christmas & Holiday Merchandise category at year end 2019 and **96% of revenue comes from our 3 best performing categories(Kitchen,Pantry & Select Home Goods, Christmas & Holiday Merchandise, Kids,Retro & Vintage Bags)**.
  - 95% of the changes in revenue for Christmas & Holiday Merchandise can be explained by how much of the category is sold (R² = 0.95) and 85% of the variation in revenue forKitchen,Pantry & Select Home Goods can be explained by changes in the quantity sold(R² = 0.85)
-  -
  -  Retro and Vintage kids items were the only cateory where revenue increased YoY(19% growth),
- - 
  - For sales made in December 2018, **24 products have only been bought 1 time since then, 85 products have been bought 5 times or less** in 2019
  - **The decline in AOV and revenue per unit(63%) for the Retro & Vintage Kids' Items category can be attributed to a shift in product mix toward higher-volume, lower-value items**. In November 2019, top-selling products included mass-market alphabet bags and accessories with significantly lower AOVs compared to the more premium, collectible items that led in December 2018. This product mix change diluted both AOV and unit revenue.
  - Despite this, **the category experienced a 7x revenue increase by November 2019 and 19% growth YoY**, suggesting that the business successfully scaled by targeting a broader customer base with more accessible price points. The trade-off was lower revenue per transaction, but substantially higher sales volume and market reach
@@ -144,19 +143,22 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 **Orders**
 
 - orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%
-- AOV of Christmas & Holiday Merchandise 5.5x greater than avg AOV of all other categories
+- **AOV of Christmas & Holiday Merchandise 5.5x greater** than avg AOV of all other categories
 -  Investigate AOV peaks for reto and vintage kids items
 - Christmas & Holiday Merchandise have the most products bought per order(avg 176) and Retro & Vintage Kids' Items have the least(avg 21). This purchasing behavior is atypical for standard B2C consumer patterns, where individual or small-quantity purchases dominate. The elevated per-order quantities strongly indicate bulk purchasing consistent with B2B transactions.
-   
-- Market basket analysis:
-- 
+- Using **Market basket analysis(MBA)**: I discoverd orders containing (Kids' Tableware & Party Decor, Retro & Vintage Kids' Items) have an 84% probability to also contain (Retro & Vintage Lunch Bags), this order accounts for 7% of all transaction.
+- When customers buy Retro & Vintage Kids' Items they have a 81% probability to also buy Baking & Pantry Essentials, this accounts for 10% of all transactions
+
+- **55% of all transactions include Christmas & Holiday Merchandise and Kitchen,Pantry & Select Home Goods**
 Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessories, Kitchen,Pantry & Select Home Goods, Retro & Vintage Bags, and Retro & Vintage Kids' Items
 
 **Returns**    
 - **Christmas & Holiday Merchandise accounts for 40% of orders** across all years, but it represents **80% of returns** excluding December and January,when During these months this **category makes up 97% of all returns**.
 - Investigate return peaks of non chrsitme items
 -Product with most returns is **Medium Ceramic Top Storage Jar where a customer ordered £800k( 7% of Q1 2019 revenue)  worth of product and returned it on the same day** 
--The product Paper Craft Little Birdie has the largest single-transaction of **revenue and quantity (80,995 units, £1.0 M)** was purchased customer on 2019-12-09 and fully returned the same day,resulting in returns of over £500 K (≈ 3 % of Q4 revenue). **This still resulted in a net revenue of £500 K increase** as the value of the goods returned was only 50% of the price the goods were sold for. 
+-The product Paper Craft Little Birdie has the largest single-transaction of **revenue and quantity (80,995 units, £1.0 M)** was purchased customer on 2019-12-09 and fully returned the same day,resulting in returns of over £500 K (≈ 3 % of Q4 revenue). **This still resulted in a net revenue of £500 K increase** as the value of the goods returned was only 50% of the price the goods were sold for.
+- Returns for non-Christmas & Holiday Merchandise peak in spring and fall
+- 
   
 
 
