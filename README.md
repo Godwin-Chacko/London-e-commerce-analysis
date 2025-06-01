@@ -146,8 +146,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 - orders of Retro & Vintage kids items have grow 71% YoY, it went from 2% of all orders to 6%
 - AOV of Christmas & Holiday Merchandise 5.5x greater than avg AOV of all other categories
 -  Investigate AOV peaks for reto and vintage kids items
--  166 products are bought on average for every order containing Christmas & Holiday Merchandise
--  
+- Christmas & Holiday Merchandise have the most products bought per order(avg 176) and Retro & Vintage Kids' Items have the least(avg 21). This purchasing behavior is atypical for standard B2C consumer patterns, where individual or small-quantity purchases dominate. The elevated per-order quantities strongly indicate bulk purchasing consistent with B2B transactions.
    
 - Market basket analysis:
 - 
