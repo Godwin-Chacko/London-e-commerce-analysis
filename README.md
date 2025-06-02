@@ -45,8 +45,11 @@ Here is the Entity Relationship Diagram after I normalized the raw data:
 
   ### Overview of findings
  
-After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15%. This decline can most likely be attributed to 
+After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15% coinciding with a dramatic surge in product returns—reaching 84,000 units, a 434% year-over-year increase. Notably, unlike the prior year's peak in January (which is typical for e-commerce retailers), returns peaked unusually early in December. This shift likely reflects a decline in consumer confidence driven by fulfillment delays and unmet delivery expectations during the critical holiday period. As a result, many customers may have reduced or canceled their orders altogether.er.
 
+
+ 
+     
 
 ![image](https://github.com/user-attachments/assets/66af3f6b-42ca-48f6-bf51-61c05bf881e3)
 
@@ -87,8 +90,9 @@ Using Excel pivot tables and conditional formatting, I analyzed:
   - Revenue declined by 22% and order volume dropped 16% in April 2019. The primary driver of this downturn was a **290% surge in returns**, which rose sharply to a total of 13,700. Additionally, **product sales fell by 26%**, helping explain why the decline in revenue outpaced the drop in order quantity.
 
     
-  - **The 74% drop in revenue and 70% decline in orders from November to December 2019 coincided with a surge in returns to 84,000 units—a 434% YoY increase** .
-  - Unlike the previous year’s returns peak in January, December 2019 saw unusually high returns within the month itself. This suggests a **loss of consumer confidence in product availability and fulfillment timing—especially if customers couldn’t get items in time for the holiday season**—likely caused by delays, unmet expectations, and growing COVID-19 fears. Consequently, many customers likely reduced or canceled orders.
+  - **The 74% drop in revenue and 70% decline in orders from November to December 2019 coincided with a surge in returns to 84,000 units—a 434% YoY increase**.
+  - Unlike the previous year’s returns peak in January (which is [typical for e-commerce retailers](https://www.3p-logistics.co.uk/3pl-blog/how-to-plan-for-peak-season-returns)), December 2019 saw unusually high returns within the month itself.
+ December 2019 saw unusually high returns within the month itself. This suggests a **loss of consumer confidence in product availability and fulfillment timing—especially if customers couldn’t get items in time for the holiday season**—likely caused by delays and unmet expectations. Consequently, many customers likely reduced or canceled orders.
      
  
 
@@ -158,7 +162,7 @@ Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessori
 -Product with most returns is **Medium Ceramic Top Storage Jar where a customer ordered £800k( 7% of Q1 2019 revenue)  worth of product and returned it on the same day** 
 -The product Paper Craft Little Birdie has the largest single-transaction of **revenue and quantity (80,995 units, £1.0 M)** was purchased customer on 2019-12-09 and fully returned the same day,resulting in returns of over £500 K (≈ 3 % of Q4 revenue). **This still resulted in a net revenue of £500 K increase** as the value of the goods returned was only 50% of the price the goods were sold for.
 - Returns for non-Christmas & Holiday Merchandise peak in spring and fall
-- 
+
   
 
 
