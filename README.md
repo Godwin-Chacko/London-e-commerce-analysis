@@ -190,8 +190,12 @@ Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessori
     
 
 >  Key SQL techniques: CTEs, aggregates, nested queries, `INNER JOIN`
+> >  Key SQL techniques:
 
 [View SQL queries](#)
+[View python code for market basket analysis](#)
+[View python code for categories](#)
+
 
 ---
 
