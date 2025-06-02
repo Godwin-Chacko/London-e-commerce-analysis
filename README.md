@@ -1,8 +1,7 @@
 # London E-Commerce Analysis: 2018-2019
 
 
-Analyzing Elist order trends from 2019–2022.  
-👉 [View the interactive Tableau dashboard here](#)
+
 
 
 
@@ -34,6 +33,12 @@ Insights and recommendations are provided on the following key areas:
 
 
 The data is organized across four tables: `Customers`, `Transactions`, `TransactionDetails`, `Products`,  and `Categories` with a total row count of 536,355.
+
+
+The Excel file I used to to inspect and perform quality checks can be found here.
+
+The SQL queries utilized to inspect and perform quality checks can be found here.
+The SQL queries utilized to inspect and perform quality checks can be found here.
 
 Here is the Entity Relationship Diagram after I normalized the raw data:
 
@@ -126,7 +131,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 [ Back to Table of Contents](#table-of-contents)
 
 
-
+![image](https://github.com/user-attachments/assets/66af3f6b-42ca-48f6-bf51-61c05bf881e3)
 
 
 
