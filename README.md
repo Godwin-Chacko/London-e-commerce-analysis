@@ -123,7 +123,8 @@ You can find the SQL code for the dataset I created in MSSQL [here](./sql/sql%20
     
 
 >  Key tools: Pivot tables, aggregation, conditional formatting
->  Key SQL techniques: CTEs, aggregates, nested queries, `INNER JOIN`, `CASE`, `nULLIF`,`ABS`,`ROUND`
+> 
+>  Key SQL techniques: aggregates, `INNER JOIN`, `CASE`, `NULLIF`,`ABS`,`ROUND`
 
 
 ---
@@ -198,19 +199,9 @@ You can find the Python code for creating the categories [here](./python/Cluster
 
     
 
->  Key SQL techniques: CTEs, aggregates, nested queries, `INNER JOIN`, `CASE`, `nULLIF`,`ABS`,`ROUND`
+>  Key SQL techniques: CTEs, aggregates, nested queries, `INNER JOIN`, `CASE`, `NULLIF`,`ABS`,`ROUND`
+> 
 > Key python libraries/techniques: pandas,  
-
-[View  interactive PowerBI dasboard](./powerbi/Product%20analysis(data).pbix)
-
-
-
-
-
-[View python code for market basket analysis](#)
-
-
-[View python code for categories](#)
 
 
 
