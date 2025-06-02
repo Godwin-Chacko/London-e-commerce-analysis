@@ -56,6 +56,8 @@ After sales peaked in november 2019, all key performance indicators have decreas
  
 ![dashboard](data/pwerbi.png)
 
+An interactive version of the above Tableau dashboard can be found [here](./powerbi/Product%20analysis(data).pbix).
+
 
 
 
@@ -116,10 +118,12 @@ Using Excel pivot tables and conditional formatting, I analyzed:
   - International sales declined 2% YoY
   - **82% of International sales are from Europe excluding the UK** in 2019
   - 16% of international sales are from APAC in 2019
+
+You can find the SQL code for the dataset I created in MSSQL [here](./sql/sql%20analysis.sql).
     
 
 >  Key tools: Pivot tables, aggregation, conditional formatting
-
+>  Key SQL techniques: CTEs, aggregates, nested queries, `INNER JOIN`, `CASE`, `nULLIF`,`ABS`,`ROUND`
 
 
 ---
@@ -130,6 +134,8 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 
 
 ![dashboard](data/pwerbi.png)
+
+An interactive version of the above Tableau dashboard can be found [here](./powerbi/Product%20analysis(data).pbix).
 
 
 
@@ -156,6 +162,8 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 - Using **Market basket analysis(MBA)**: I discoverd orders containing (Kids' Tableware & Party Decor, Retro & Vintage Kids' Items) have an 84% probability to also contain (Retro & Vintage Lunch Bags), this order accounts for 7% of all transaction.
 - When customers buy Retro & Vintage Kids' Items they have a 81% probability to also buy Baking & Pantry Essentials, this accounts for 10% of all transactions
 
+You can find the Python code for market basket analysis [here](./python/Market%20Basket%20Analysis%20-%20Copy.py).
+
 - **55% of all transactions include Christmas & Holiday Merchandise and Kitchen,Pantry & Select Home Goods**
 Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessories, Kitchen,Pantry & Select Home Goods, Retro & Vintage Bags, and Retro & Vintage Kids' Items
 
@@ -180,6 +188,9 @@ Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessori
       
 - These products have return rates above **50%**, meaning they are returned more often than they are kept,indicating potential issues with product quality, accuracy of listings, or customer expectations.
   
+You can find the SQL code for the dataset I created in MSSQL [here](./sql/sql%20analysis.sql).
+You can find the Python code for creating the categories [here](./python/Cluster%20-%20Copy.py)
+
   
 
  
@@ -190,10 +201,17 @@ Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessori
 >  Key SQL techniques: CTEs, aggregates, nested queries, `INNER JOIN`, `CASE`, `nULLIF`,`ABS`,`ROUND`
 > Key python libraries/techniques: pandas,  
 
-[View PowerBI dasboard](#)
-[View SQL queries](#)
+[View  interactive PowerBI dasboard](./powerbi/Product%20analysis(data).pbix)
+
+
+
+
+
 [View python code for market basket analysis](#)
+
+
 [View python code for categories](#)
+
 
 
 ---
