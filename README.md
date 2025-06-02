@@ -54,9 +54,7 @@ After sales peaked in november 2019, all key performance indicators have decreas
 
 
  
-     
-
-![image](https://github.com/user-attachments/assets/66af3f6b-42ca-48f6-bf51-61c05bf881e3)
+![dashboard](data/pwerbi.png)
 
 
 
@@ -67,7 +65,7 @@ After sales peaked in november 2019, all key performance indicators have decreas
 
 [ Back to Table of Contents](#table-of-contents)
 
-![image](https://github.com/user-attachments/assets/1de44a7a-4d16-445e-8f7f-1d0d73b6c5ab)
+![excel](data/excel.png)
 
 
 
@@ -131,7 +129,7 @@ Using Excel pivot tables and conditional formatting, I analyzed:
 [ Back to Table of Contents](#table-of-contents)
 
 
-![image](https://github.com/user-attachments/assets/66af3f6b-42ca-48f6-bf51-61c05bf881e3)
+![dashboard](data/pwerbi.png)
 
 
 
