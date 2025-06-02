@@ -190,7 +190,8 @@ Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessori
 - These products have return rates above **50%**, meaning they are returned more often than they are kept,indicating potential issues with product quality, accuracy of listings, or customer expectations.
   
 You can find the SQL code for the dataset I created in MSSQL [here](./sql/sql%20analysis.sql).
-You can find the Python code for creating the categories [here](./python/Cluster%20-%20Copy.py)
+
+You can find the Python code for creating the categories [here](./python/Cluster%20-%20Copy.py).
 
   
 
