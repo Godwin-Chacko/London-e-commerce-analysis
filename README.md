@@ -201,7 +201,7 @@ You can find the Python code for creating the categories [here](./python/Cluster
 
 >  Key SQL techniques: CTEs, aggregates, nested queries, `INNER JOIN`, `CASE`, `NULLIF`,`ABS`,`ROUND`
 > 
-> Key python libraries/techniques: pandas,  
+> Key python libraries/techniques: pandas,mlxtend.frequent_patterns,apriori, association_rules 
 
 
 
