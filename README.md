@@ -45,7 +45,7 @@ Here is the Entity Relationship Diagram after I normalized the raw data:
 
   ### Overview of findings
  
-After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: Revenue declined 74%, Orders fell 70% and AOV decreased 15% coinciding with a dramatic surge in product returns—reaching 84,000 units, a 434% year-over-year increase. Notably, unlike the prior year's peak in January (which is typical for e-commerce retailers), returns peaked unusually early in December. This shift likely reflects a decline in consumer confidence driven by fulfillment delays and unmet delivery expectations during the critical holiday period. As a result, many customers may have reduced or canceled their orders altogether.er.
+After sales peaked in november 2019, all key performance indicators have decreased month over month in December 2019: R**evenue declined 74%, Orders fell 70% and AOV decreased 15%** coinciding with a dramatic surge in product returns—reaching **84,000 units, a 434% year-over-year increase**. Notably, unlike the prior year's peak in January (which is typical for e-commerce retailers), returns peaked unusually early in December. This shift likely reflects a decline in consumer confidence driven by fulfillment delays and unmet delivery expectations during the critical holiday period. As a result, many customers may have reduced or canceled their orders altogether.
 
 
  
