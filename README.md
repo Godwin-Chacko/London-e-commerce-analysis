@@ -22,7 +22,7 @@
 
 This is a sales transaction data set of UK-based e-commerce (online retail) for one year. This London-based shop has been selling Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessories, Kitchen,Pantry & Select Home Goods, Retro & Vintage Bags, and Retro & Vintage Kids' Items through the website since 2007. Their customers come from all over the world and usually make direct purchases for themselves. There are also small businesses that buy in bulk and sell to other customers through retail outlet channels.
 
-The company has significant amounts of data on its Transactions, customers and  product offerings, that has been previously underutilized. This project thoroughly analyzes and synthesizes this data in order to uncover critical insights that will improve London's commercial success.
+The company has significant amounts of data on its transactions, customers and  product offerings, that has been previously underutilized. This project thoroughly analyzes and synthesizes this data in order to uncover critical insights that will improve London's commercial success.
 
 Insights and recommendations are provided on the following key areas:
 
