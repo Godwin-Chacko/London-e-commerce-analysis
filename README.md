@@ -119,6 +119,7 @@ My Excel worksheet can be found [here](./excel/Sales%20Transaction%20v.4a.xlsx)
 
 
 You can find the excel worksheet I cleaned and used [here](./sql/sql%20analysis.sql).
+
 You can find the SQL code for the dataset I created in MSSQL [here](./sql/sql%20analysis.sql).
     
 
