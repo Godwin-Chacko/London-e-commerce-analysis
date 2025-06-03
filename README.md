@@ -119,6 +119,8 @@ Using Excel pivot tables and conditional formatting, I analyzed:
   - **82% of International sales are from Europe excluding the UK** in 2019
   - 16% of international sales are from APAC in 2019
 
+
+You can find the excel worksheet I cleaned and used [here](./sql/sql%20analysis.sql).
 You can find the SQL code for the dataset I created in MSSQL [here](./sql/sql%20analysis.sql).
     
 
@@ -266,6 +268,7 @@ You can find the Python code for creating the categories [here](./python/Cluster
 **Author:**  
 [Godwin Chacko](#)  
  godwinrejioutlook.com  
- [LinkedIn](#) | [Portfolio](#)
+ [LinkedIn](https://www.linkedin.com/in/godwin-chacko-52b016241/)
+ | [Portfolio](#)
 
 
