@@ -70,10 +70,8 @@ An interactive version of the above Tableau dashboard can be found [here](./powe
 ![excel](data/excel.png)
 
 
+My Excel worksheet can be found [here](./excel/Sales%20Transaction%20v.4a.xlsx)
 
-
-
-Using Excel pivot tables and conditional formatting, I analyzed:
 
  **Yearly Trends** 
 - Revenue declined 53% year-over-year (YoY)
