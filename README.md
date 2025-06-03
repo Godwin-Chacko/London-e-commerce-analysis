@@ -135,7 +135,7 @@ You can find the SQL code for the dataset I created in MSSQL [here](./sql/sql%20
 [ Back to Table of Contents](#table-of-contents)
 
 
-![dashboard](data/pwerbi.png)
+![dashboard](data/powerbi.png)
 
 An interactive version of the above Tableau dashboard can be found [here](./powerbi/Product%20analysis.pbix).
 
