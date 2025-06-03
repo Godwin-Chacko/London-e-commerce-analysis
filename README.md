@@ -54,7 +54,7 @@ After sales peaked in november 2019, all key performance indicators have decreas
 
 
  
-![dashboard](data/pwerbi.png)
+![dashboard](data/powerbi.png)
 
 An interactive version of the above Tableau dashboard can be found [here](./powerbi/Product%20analysis(data).pbix).
 
