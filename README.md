@@ -164,8 +164,6 @@ An interactive version of the above Tableau dashboard can be found [here](./powe
 - Using **Market basket analysis(MBA)**: I discoverd orders containing (Kids' Tableware & Party Decor, Retro & Vintage Kids' Items) have an 84% probability to also contain (Retro & Vintage Lunch Bags), this order accounts for 7% of all transaction.
 - When customers buy Retro & Vintage Kids' Items they have a 81% probability to also buy Baking & Pantry Essentials, this accounts for 10% of all transactions
 
-You can find the Python code for market basket analysis [here](./python/Market%20Basket%20Analysis%20-%20Copy.py).
-
 - **55% of all transactions include Christmas & Holiday Merchandise and Kitchen,Pantry & Select Home Goods**
 Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessories, Kitchen,Pantry & Select Home Goods, Retro & Vintage Bags, and Retro & Vintage Kids' Items
 
@@ -193,6 +191,8 @@ Christmas & Holiday Merchandise, Kids' Tableware, Party Decor & Modern Accessori
 You can find the SQL code for the dataset I created in MSSQL [here](./sql/sql%20analysis.sql).
 
 You can find the Python code for creating the categories [here](./python/Cluster%20-%20Copy.py).
+
+You can find the Python code for market basket analysis [here](./python/Market%20Basket%20Analysis%20-%20Copy.py).
 
   
 
