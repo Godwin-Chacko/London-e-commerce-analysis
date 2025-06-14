@@ -11,7 +11,7 @@
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
 - [Sales Trend Analysis (Excel/SQL)](#sales-trend-analysis-excelsql)  
-- [Product Performance (Excel/SQL/SQL)](#product-performance-excelsqlpython)  
+- [Product Performance (Excel/SQL/Python)](#product-performance-excelsqlpython)  
 - [Recommendations & Next Steps](#recommendations--next-steps)  
 - [Assumptions and Caveats](#assumptions-and-caveats)
 
